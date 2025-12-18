@@ -17,6 +17,7 @@ df["bmi"]=df["bmi"].fillna(df["bmi"].mean())
 
 print(df.describe())
 
+df.to_csv("stroke.csv")
 
 print(df.info())
 
